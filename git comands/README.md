@@ -1,10 +1,10 @@
-# 📌 Cheat Sheet de Comandos Git
+# Cheat Sheet de Comandos Git
 
 Um guia prático e rápido com os principais comandos do Git para o dia a dia do desenvolvimento de software, divididos por fluxo de trabalho.
 
 ---
 
-## 📋 Sumário
+## Sumário
 - [1. Iniciar e Subir Projetos](#-1-para-iniciar-e-subir-projetos-githubgitlab)
 - [2. Salvar e Versionar Código](#-2-para-salvar-e-fazer-versionamento)
 - [3. Consultar Histórico e Alterações](#-3-para-consultar-histórico-e-diferenças)
@@ -14,7 +14,7 @@ Um guia prático e rápido com os principais comandos do Git para o dia a dia do
 
 ---
 
-## 🚀 1. Para Iniciar e Subir Projetos (GitHub/GitLab)
+## 1. Para Iniciar e Subir Projetos (GitHub/GitLab)
 Comandos usados para transformar uma pasta local em um repositório Git e conectá-la ao repositório remoto.
 
 | Comando | Descrição |
@@ -28,7 +28,7 @@ Comandos usados para transformar uma pasta local em um repositório Git e conect
 
 ---
 
-## 📸 2. Para Salvar e Fazer Versionamento
+## 2. Para Salvar e Fazer Versionamento
 Comandos utilitários para registrar o progresso do desenvolvimento no histórico.
 
 | Comando | Descrição |
@@ -41,7 +41,7 @@ Comandos utilitários para registrar o progresso do desenvolvimento no históric
 
 ---
 
-## 🔍 3. Para Consultar Histórico e Diferenças
+## 3. Para Consultar Histórico e Diferenças
 Comandos para inspecionar alterações e conferir commits antigos.
 
 | Comando | Descrição |
@@ -52,7 +52,7 @@ Comandos para inspecionar alterações e conferir commits antigos.
 
 ---
 
-## 🌿 4. Para Trabalhar com Branches (Ramificações)
+## 4. Para Trabalhar com Branches (Ramificações)
 Comandos para gerenciar o desenvolvimento em ambientes isolados.
 
 | Comando | Descrição |
@@ -66,7 +66,7 @@ Comandos para gerenciar o desenvolvimento em ambientes isolados.
 
 ---
 
-## 🔄 5. Para Sincronizar e Baixar Atualizações
+## 5. Para Sincronizar e Baixar Atualizações
 Comandos para manter o repositório local alinhado com o remoto.
 
 | Comando | Descrição |
@@ -76,7 +76,7 @@ Comandos para manter o repositório local alinhado com o remoto.
 
 ---
 
-## ⏪ 6. Para Desfazer Alterações e Apagar Erros
+## 6. Para Desfazer Alterações e Apagar Erros
 Comandos de restauração para corrigir equívocos.
 
 | Comando | Descrição |
@@ -88,4 +88,4 @@ Comandos de restauração para corrigir equívocos.
 
 ---
 
-💡 *Dica: Mantenha commits pequenos e com mensagens descritivas para facilitar o versionamento do seu software.*
+*Dica: Mantenha commits pequenos e com mensagens descritivas para facilitar o versionamento do seu software.*
