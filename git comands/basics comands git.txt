@@ -1,0 +1,121 @@
+1. Para Iniciar e Subir Projetos (GitHub/GitLab)
+Comandos para transformar uma pasta em repositório e conectar com a nuvem.
+
+git init
+
+Inicializa um novo repositório Git local dentro da pasta atual.
+
+git remote add origin <URL-DO-REPOSITORIO>
+
+Conecta o seu repositório local a um repositório remoto (ex: no GitHub).
+
+git remote -v
+
+Lista os links dos repositórios remotos atualmente conectados.
+
+git push -u origin main
+
+Envia seus commits locais pela primeira vez para a branch main no servidor remoto e salva essa preferência.
+
+git push
+
+Envia seus novos commits locais para o servidor remoto (após a primeira configuração).
+
+git clone <URL-DO-REPOSITORIO>
+
+Baixa uma cópia completa de um projeto do GitHub para a sua máquina.
+
+2. Para Salvar e Fazer Versionamento
+Comandos que você usa toda hora enquanto escreve código para registrar suas alterações.
+
+git status
+
+Mostra o estado dos seus arquivos (quais foram modificados, criados ou preparados para o commit).
+
+git add <NOME-DO-ARQUIVO>
+
+Prepara um arquivo específico para ser salvo na próxima "foto" (commit).
+
+git add .
+
+Prepara todos os arquivos modificados e criados da pasta atual para o próximo commit.
+
+git commit -m "Mensagem descritiva"
+
+Salva a "foto" (versão) do seu projeto no histórico local com uma mensagem explicando o que mudou.
+
+git commit --amend -m "Nova mensagem"
+
+Altera a mensagem do último commit feito (caso tenha digitado algo errado).
+
+3. Para Consultar Histórico e Diferenças
+Comandos para ver o passado do projeto e entender o que foi alterado.
+
+git log
+
+Lista todo o histórico de commits feitos no projeto (autor, data, ID e mensagem).
+
+git log --oneline
+
+Exibe o histórico de commits de forma simplificada e resumida em uma linha por commit.
+
+git diff
+
+Mostra exatamente quais linhas de código foram alteradas no arquivo antes de dar o git add.
+
+4. Para Trabalhar com Branches (Ramificações)
+Comandos para criar ambientes isolados para desenvolver novas funcionalidades sem quebrar o código principal.
+
+git branch
+
+Lista todas as branches locais e mostra em qual você está no momento.
+
+git branch <NOME-DA-BRANCH>
+
+Cria uma nova branch a partir da branch atual.
+
+git checkout -b <NOME-DA-BRANCH>
+
+Cria uma nova branch e já alterna diretamente para ela.
+
+git checkout <NOME-DA-BRANCH> ou git switch <NOME-DA-BRANCH>
+
+Alterna para uma branch existente.
+
+git merge <NOME-DA-BRANCH>
+
+Une as alterações da branch especificada com a branch em que você está atualmente.
+
+git branch -d <NOME-DA-BRANCH>
+
+Deleta uma branch localmente (após já ter feito o merge dela).
+
+5. Para Sincronizar e Baixar Atualizações
+Comandos para atualizar seu código local com o que está na nuvem.
+
+git fetch
+
+Baixa as informações do servidor remoto, mas sem alterar seus arquivos locais.
+
+git pull
+
+Baixa o código do servidor remoto e une automaticamente com a sua branch atual (fetch + merge).
+
+6. Para Desfazer Alterações e Apagar Erros
+Comandos de emergência quando algo dá errado.
+
+git restore <ARQUIVO>
+
+Descarta as alterações locais não salvas em um arquivo (volta ao estado do último commit).
+
+git restore --staged <ARQUIVO>
+
+Tira o arquivo da área de preparação (staging area) sem perder o código editado.
+
+git reset --soft HEAD~1
+
+Desfaz o último commit, mas mantém as alterações nos arquivos para você editar novamente.
+
+git reset --hard HEAD~1
+
+Cuidado: Apaga o último commit e descarta permanentemente todas as alterações feitas nele.
